@@ -1,0 +1,25 @@
+{
+    "name": "hexlet/code",
+    "description": "Data Validator",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hexlet\\Code\\": "src",
+            "Hexlet\\Code\\Tests\\": "tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "John Smith",
+            "email": "john@example.com"
+        }
+    ],
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.6",
+        "phpunit/phpunit": "^9.5",
+        "psy/psysh": "^0.11.1"
+    },
+    "require": {
+        "illuminate/collections": "^9.2"
+    }
+}
