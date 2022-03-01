@@ -1,10 +1,13 @@
 <?php
+
 declare(strict_types=1);
 
 namespace Hexlet\Code;
 
 use Hexlet\Code\Schemas\AbstractSchema;
+use Hexlet\Code\Schemas\NumberSchema;
 use Hexlet\Code\Schemas\StringSchema;
+use Hexlet\Code\Schemas\ArraySchema;
 
 /**
  * Class Validator
@@ -18,6 +21,8 @@ class Validator
     {
         $this->schemas = [
             StringSchema::NAME => new StringSchema(),
+            NumberSchema::NAME => new NumberSchema(),
+            ArraySchema::NAME  => new ArraySchema()
         ];
     }
 
