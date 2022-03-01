@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace Hexlet\Code\Schemas;
@@ -55,5 +56,12 @@ class AbstractSchema
     public function addValidator(string $name, callable $fn): void
     {
         $this->customValidators[$name] = $fn;
+    }
+
+    public function test(string $name, ...$args): AbstractSchema
+    {
+        $fn = $this->customValidators[$name];
+        $this->validators->add(static fn (mixed $value) => $fn(...[$value, ...$args]));
+        return $this;
     }
 }
