@@ -22,6 +22,6 @@
     },
     "require": {
         "php": "^8.0",
-        "illuminate/collections": "^9.2"
+        "illuminate/collections": "^8.0"
     }
 }
