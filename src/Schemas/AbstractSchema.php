@@ -58,8 +58,12 @@ class AbstractSchema
         $this->customValidators[$name] = $fn;
     }
 
-
-    public function test(string $name, ...$args): AbstractSchema
+    /**
+     * @param string $name
+     * @param mixed ...$args
+     * @return $this
+     */
+    public function test(string $name, mixed ...$args): AbstractSchema
     {
         $fn = $this->customValidators[$name];
         $this->validators->add(static fn (mixed $value) => $fn(...[$value, ...$args]));
