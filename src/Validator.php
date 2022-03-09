@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Hexlet\Code;
+namespace Hexlet\Validator;
 
-use Hexlet\Code\Schemas\AbstractSchema;
-use Hexlet\Code\Schemas\NumberSchema;
-use Hexlet\Code\Schemas\StringSchema;
-use Hexlet\Code\Schemas\ArraySchema;
+use Hexlet\Validator\Schemas\AbstractSchema;
+use Hexlet\Validator\Schemas\NumberSchema;
+use Hexlet\Validator\Schemas\StringSchema;
+use Hexlet\Validator\Schemas\ArraySchema;
 
 /**
  * Class Validator
- * @package Hexlet\Code
+ * @package Hexlet\Validator
  */
 class Validator
 {

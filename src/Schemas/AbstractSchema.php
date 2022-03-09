@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Hexlet\Code\Schemas;
+namespace Hexlet\Validator\Schemas;
 
 use Illuminate\Support\Collection;
 
 /**
  * Class AbstractSchema
- * @package Hexlet\Code\Schemas
+ * @package Hexlet\Validator\Schemas
  */
 class AbstractSchema
 {

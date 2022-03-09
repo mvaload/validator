@@ -4,8 +4,8 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Hexlet\\Code\\": "src",
-            "Hexlet\\Code\\Tests\\": "tests"
+            "Hexlet\\Validator\\": "src",
+            "Hexlet\\Validator\\Tests\\": "tests"
         }
     },
     "authors": [

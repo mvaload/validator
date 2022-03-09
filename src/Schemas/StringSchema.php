@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Hexlet\Code\Schemas;
+namespace Hexlet\Validator\Schemas;
 
 /**
  * Class StringSchema
- * @package Hexlet\Code\Schemas
+ * @package Hexlet\Validator\Schemas
  */
 class StringSchema extends AbstractSchema
 {

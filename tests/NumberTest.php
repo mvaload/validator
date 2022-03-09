@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Hexlet\Code\Tests;
+namespace Hexlet\Validator\Tests;
 
-use Hexlet\Code\Validator;
+use Hexlet\Validator\Validator;
 use PHPUnit\Framework\TestCase;
 
 class NumberTest extends TestCase

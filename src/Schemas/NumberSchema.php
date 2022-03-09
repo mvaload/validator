@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Hexlet\Code\Schemas;
+namespace Hexlet\Validator\Schemas;
 
 /**
  * Class NumberSchema
- * @package Hexlet\Code\Schemas
+ * @package Hexlet\Validator\Schemas
  */
 class NumberSchema extends AbstractSchema
 {
