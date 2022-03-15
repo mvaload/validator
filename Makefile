@@ -26,10 +26,10 @@ lint-fix:
 	composer exec --verbose phpcbf -- --standard=PSR12 src tests
 
 test:
-	composer exec phpunit tests
+	composer exec --verbose phpunit tests
 
 test-coverage:
-	composer exec phpunit tests -- --coverage-clover build/logs/clover.xml
+	composer exec --verbose phpunit tests -- --coverage-clover build/logs/clover.xml
 
 install:
 	composer install
